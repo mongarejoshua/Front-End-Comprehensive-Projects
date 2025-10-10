@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   },
   "name": "frontend-development-projects",
   "version": "1.0.0",
