@@ -1,11 +1,11 @@
-NOTE: SOME OF THESE PROJECTS HAVE A BACKEND SERVICE INCLUDED.
+NOTE: HERE IS A LIST OF THE PROJECTS I HAVE DONE / I'M CURRENTLY WORKING ON
 
 ### Beginner Projects
 1. Personal Portfolio Website
 2. Responsive Landing Page
 3. Simple To-Do App
 4. Calculator
-5. Quiz App
+5. Quiz App 
 6. Weather App (Static)
 7. Restaurant Menu Page
 8. Image Gallery with Modal

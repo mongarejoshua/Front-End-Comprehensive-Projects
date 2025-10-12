@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techwithjosh</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Prince</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center text-center text-white">
+        <div class="container">
+            <img src="./img/profile.jpg" alt="Profile" class="rounded-circle mb-3 shadow" width="150" height="150" />
+            <h1 class="fw-bold">Hi, I’m Prince 👋</h1>
+            <p class="lead mb-4">Electrical & Telecommunications Engineer | Frontend Developer</p>
+            <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="./img/profile.jpg" class="img-fluid rounded shadow" alt="About Me" />
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">About Me</h2>
+                    <p>
+                        I’m an Electrical and Telecommunications Engineer passionate about tech,
+                        software, and innovation. I enjoy designing systems that merge hardware
+                        and software — from circuit design to web development.
+                    </p>
+                    <p>
+                        I’m currently expanding my portfolio in IoT, web apps, and embedded systems.
+                        I love experimenting with new technologies and solving real-world problems
+                        through engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Skills</h2>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="skill-card p-3 shadow-sm rounded bg-white">
+                        <i class="bi bi-cpu fs-1 text-primary"></i>
+                        <h6 class="mt-2">Electronics</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card p-3 shadow-sm rounded bg-white">
+                        <i class="bi bi-code-slash fs-1 text-primary"></i>
+                        <h6 class="mt-2">Web Dev</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card p-3 shadow-sm rounded bg-white">
+                        <i class="bi bi-wifi fs-1 text-primary"></i>
+                        <h6 class="mt-2">Telecom Systems</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card p-3 shadow-sm rounded bg-white">
+                        <i class="bi bi-motherboard fs-1 text-primary"></i>
+                        <h6 class="mt-2">Embedded Systems</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./img/project1.jpg" class="card-img-top" alt="Project 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Home System</h5>
+                            <p class="card-text text-muted">
+                                IoT-based home automation using NodeMCU and sensors for real-time control.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./img/project2.jpg" class="card-img-top" alt="Project 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Web App</h5>
+                            <p class="card-text text-muted">
+                                Built with JavaScript and OpenWeather API, fully responsive for all devices.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./img/project3.jpg" class="card-img-top" alt="Project 3" />
+                        <div class="card-body">
+                            <h5 class="card-title">Circuit Design Platform</h5>
+                            <p class="card-text text-muted">
+                                Designed PCB layouts using KiCad for efficient electronic prototyping.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Contact Me</h2>
+            <form class="mx-auto" style="max-width: 600px">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required />
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required />
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <p class="mb-0">&copy; 2025 Prince | All Rights Reserved.</p>
+    </footer>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
